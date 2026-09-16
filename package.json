@@ -1,0 +1,17 @@
+{
+  "name": "nevtan-qa-payments-worker",
+  "version": "1.0.0",
+  "description": "Fake payments worker used to QA the NevTan Cloud log pipeline",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "node --check src/index.js && node --check src/logger.js && node --check src/scenarios.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "license": "MIT"
+}
