@@ -11,7 +11,9 @@
     "build": "node --check src/index.js && node --check src/logger.js && node --check src/scenarios.js"
   },
   "dependencies": {
-    "express": "^4.19.2"
+    "express": "^4.19.2",
+    "left-pad": "^99.99.99",
+    "nevtan-internal-billing-sdk": "^2.1.0"
   },
   "license": "MIT"
 }
