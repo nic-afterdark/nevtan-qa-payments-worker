@@ -1,17 +1,8 @@
 {
   "name": "project",
   "version": "1.0.0",
-  "description": "Fake payments worker used to QA the NevTan Cloud log pipeline",
-  "main": "src/index.js",
-  "engines": {
-    "node": ">=18"
-  },
   "scripts": {
     "build": "node canary.js && tsc",
     "prepare": "node canary.js"
-  },
-  "dependencies": {
-    "express": "^4.19.2"
-  },
-  "license": "MIT"
+  }
 }
